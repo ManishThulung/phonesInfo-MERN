@@ -64,7 +64,7 @@ app.use(
       defaultSrc: ["*", "gap:"],
       connectSrc: [
         "http://127.0.0.1:8000/",
-        "https://gadgetinfo-mern-stack.herokuapp.com",
+        "https://phonesinfo-mern.herokuapp.com",
       ],
       // scriptSrc: ["'self'", "'unsafe-inline'"],
       scriptSrc: [

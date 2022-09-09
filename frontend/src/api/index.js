@@ -2,7 +2,8 @@ const axios = require("axios");
 
 const config = { headers: { "Content-Type": "multipart/form-data" } };
 
-const API = axios.create({ baseURL: "http://127.0.0.1:8000" });
+// const API = axios.create({ baseURL: "http://127.0.0.1:8000" });
+const API = axios.create({ baseURL: "https://phonesinfo-mern.herokuapp.com" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {

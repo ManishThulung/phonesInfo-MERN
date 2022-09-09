@@ -39,7 +39,7 @@ export const getPhones =
   async (dispatch) => {
     try {
       let link;
-      link = `http://127.0.0.1:8000/api/phones?keyword=${keyword}&price[gte]=${price[0]}&price[lte]=${price[1]}`;
+      link = `https://phonesinfo-mern.herokuapp.com/api/phones?keyword=${keyword}&price[gte]=${price[0]}&price[lte]=${price[1]}`;
 
       // if (categoryItem !== "") {
       //   link = `http://127.0.0.1:8000/api/phones?keyword=${keyword}&price[gte]=${price[0]}&price[lte]=${price[1]}&category=${categoryItem}`;
@@ -65,7 +65,7 @@ export const getPhones =
 // get all phones
 export const getAllPhones = () => async (dispatch) => {
   try {
-    let link = `http://127.0.0.1:8000/api/phones`;
+    let link = `https://phonesinfo-mern.herokuapp.com/api/phones`;
 
     const { data } = await axios.get(link);
 
