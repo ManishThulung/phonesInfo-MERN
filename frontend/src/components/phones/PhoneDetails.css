@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Lora&family=Open+Sans&display=swap");
+.phone {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-family: "Lora", serif;
+}
+.centerr {
+  text-align: center;
+  padding-top: 1.5vmax;
+}
+.center {
+  padding: 7px 18px;
+  border-bottom: 1px solid rgb(207, 102, 102);
+  font-family: Roboto;
+}
+
+.tableText {
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+.tablee {
+  margin-top: 45px;
+}
+.tablee .table {
+  border: none;
+}
+.tablee table tr th {
+  font-size: larger;
+  width: 28vw;
+}
+.tablee table tr th,
+.tablee table tr td {
+  border-bottom: 0.8px solid rgb(54, 53, 53);
+  border-top: none;
+}
+.tablee table tr {
+  padding: 15px 0;
+}
+
+.detailsPara {
+  margin: 0px;
+}
+
+.reviewBtn {
+  display: block;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.submitReview {
+  border: none;
+  background-color: tomato;
+  font: 500 1.2vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax auto;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  display: flex;
+}
+.submitReview:hover {
+  background-color: rgb(197, 68, 45);
+  transform: scale(1.1);
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+  width: 100%;
+}
+
+.reviewsHeading {
+  color: #000000be;
+  font: 500 1.4vmax "Roboto";
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 2vmax;
+}
+.reviews {
+  display: flex;
+  overflow: auto;
+  margin-bottom: 6vmax;
+}
+
+.reviewCard {
+  flex: none;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  border: 1px solid rgba(56, 56, 56, 0.116);
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 2.5vmax 2vmax;
+  /* padding-top: 0; */
+}
+.reviewCard > img {
+  width: 3.2vmax;
+}
+.reviewCard > p {
+  padding-top: 0.8vmax;
+  color: black;
+  font: 600 1.1vmax "Roboto";
+}
+.reviewCardComment {
+  color: rgba(0, 0, 0, 0.85);
+  font: 300 0.9vmax cursive;
+  padding-bottom: 1.5vmax;
+}
+
+.noReviews {
+  font: 400 1.3vmax "Gill Sans";
+  text-align: center;
+  color: rgba(0, 0, 0, 0.548);
+  margin-bottom: 6vh;
+}
+
+.deleteIcon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  top: 97%;
+  left: 45%;
+}
